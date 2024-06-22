@@ -2,9 +2,6 @@
     #logos-2 {
         display: none;
     }
-    #right-icons {
-        display: none;
-    }
     #res-start {
         display: flex;
         width: 100%;
@@ -112,9 +109,7 @@
     #logos-2 {
         display: none;
     }
-    #right-icons {
-        display: none;
-    }
+    
     #res-start {
         display: flex;
         width: 100%;
