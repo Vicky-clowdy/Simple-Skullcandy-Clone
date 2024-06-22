@@ -1,0 +1,457 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    #logos-2 {
+        display: none;
+    }
+    #right-icons {
+        display: none;
+    }
+    #res-start {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        margin: 5px 2px;
+        height: 50px;
+    }
+    #options-screen {
+        height: 650px;
+        width: 370px;
+        background-color: white;
+        position: fixed;
+        top: 0%;
+        left: -101%;
+    }
+    #options-list {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 500px;
+        width: auto;
+    }
+    #lists-item {
+        height: 100px;
+        width: auto;
+        border-bottom: 2px solid black;
+    }
+    #options-list p {
+        padding: 10px;
+        font-weight: bold;
+        font-weight: 17px;
+        color: black;
+        text-transform: uppercase;
+    }
+    #coupon-text {
+        font-size: medium;
+        flex-wrap: wrap;
+    }
+    #btns-9 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #headphone-btns {
+        width: 9em;
+        height: 5em;
+    }
+    #main-footer {
+        width: auto;
+        height: 750px;
+        position: relative;
+    }
+    #details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px 2px;
+        height: 38em;
+    }
+    #details1,
+    #deatils2 {
+        display: initial;
+    }
+    #social-pos {
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+    #socials-1,
+    #social0 {
+        display: initial;
+    }
+    #socials-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+    #email {
+        position: absolute;
+        left: 25%;
+    }
+    #follow-text {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    #contact-us {
+        text-align: center;
+        margin-top: 8px;
+    }
+    #headphones-img {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #imgs-grid img {
+        width: 18em;
+        height: 18em;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:640px) {
+    #logos-2 {
+        display: none;
+    }
+    #right-icons {
+        display: none;
+    }
+    #res-start {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        margin: 5px 2px;
+        height: 50px;
+    }
+    #options-screen {
+        height: 650px;
+        width: 370px;
+        background-color: white;
+        position: fixed;
+        top: 0%;
+        left: -101%;
+    }
+    #options-list {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 500px;
+        width: auto;
+    }
+    #lists-item {
+        height: 100px;
+        width: auto;
+        border-bottom: 2px solid black;
+    }
+    #options-list p {
+        padding: 10px;
+        font-weight: bold;
+        font-weight: 17px;
+        color: black;
+        text-transform: uppercase;
+    }
+    #btns-9 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #headphone-btns {
+        width: 12em;
+        height: 5em;
+    }
+    #headphones-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2px;
+    }
+    #imgs-grid img {
+        width: 15em;
+        height: 15em;
+    }
+    #main-footer {
+        width: auto;
+        height: 750px;
+        position: relative;
+    }
+    #details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px 12px;
+        height: 38em;
+    }
+    #details1,
+    #deatils2 {
+        display: initial;
+    }
+    #social-pos {
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+    #socials-1,
+    #social0 {
+        display: initial;
+    }
+    #socials-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #email {
+        position: absolute;
+        left: 25%;
+    }
+    #follow-text {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    #contact-us {
+        text-align: center;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width:960px) {
+    #res-start {
+        display: none;
+    }
+    #options-screen {
+        display: none;
+    }
+    #section-1::after {
+        content: ' ';
+        height: 0px;
+        width: 0px;
+    }
+    #inside-skully-p::after {
+        content: ' ';
+        height: 0px;
+        width: 0px;
+    }
+    #inside-skull-details {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 13%;
+        left: 0;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    #inside-skull-flex:first-child p {
+        font-size: 10px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        margin-top: 5px;
+        padding: 4px;
+        position: relative;
+    }
+    #btns-9 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #headphone-btns {
+        margin: 7px 7px;
+        width: 15em;
+        height: 5em;
+    }
+    #headphones-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 7px;
+    }
+    #imgs-grid img {
+        width: 20em;
+        height: 20em;
+    }
+    #main-footer {
+        width: auto;
+        height: 750px;
+        position: relative;
+    }
+    #details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px 12px;
+        height: 38em;
+    }
+    #details1,
+    #deatils2 {
+        display: initial;
+    }
+    #social-pos {
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+    #socials-1,
+    #social0 {
+        display: initial;
+    }
+    #socials-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #email {
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    }
+    #follow-text {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    #contact-us {
+        text-align: center;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1024px) {
+    #section-1::after {
+        content: ' ';
+        height: 0px;
+        width: 0px;
+    }
+    #inside-skully-p::after {
+        content: ' ';
+        height: 0px;
+        width: 0px;
+    }
+    #inside-skull-details {
+        height: 250px;
+        width: 100%;
+        background-color: white;
+        position: relative;
+        top: 13%;
+        left: 0;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    #inside-skull-flex:first-child p {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        margin-top: 5px;
+        padding: 4px;
+        position: relative;
+    }
+    #res-start {
+        display: none;
+    }
+    #options-screen {
+        display: none;
+    }
+    #btns-9 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #headphone-btns {
+        margin: 7px 7px;
+        width: 17em;
+        height: 5em;
+    }
+    #headphones-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 7px;
+    }
+    #imgs-grid img {
+        width: 25em;
+        height: 25em;
+    }
+    #main-footer {
+        width: auto;
+        height: 750px;
+        position: relative;
+    }
+    #details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2px 12px;
+        height: 38em;
+    }
+    #details1,
+    #deatils2 {
+        display: initial;
+    }
+    #social-pos {
+        position: absolute;
+        top: 55%;
+        left: 0;
+    }
+    #socials-1,
+    #social0 {
+        display: initial;
+    }
+    #socials-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    #email {
+        position: absolute;
+        left: 35%;
+        top: 10%;
+    }
+    #follow-text {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    #contact-us {
+        text-align: center;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1064px) {
+    #inside-skull-flex:first-child p {
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        margin-top: 5px;
+        padding: 4px;
+        position: relative;
+    }
+    #res-start {
+        display: none;
+    }
+    #options-screen {
+        display: none;
+    }
+    #btns-9>button:last-child {
+        width: initial;
+        grid-column: 1/span 2;
+    }
+}
+
+@media screen and (min-width:1065px) {
+    #res-start {
+        display: none;
+    }
+    #options-screen {
+        display: none;
+    }
+    #btns-9>button:last-child {
+        width: initial;
+        grid-column: 1/span 2;
+    }
+}
